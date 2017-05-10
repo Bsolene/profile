@@ -1,0 +1,143 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-image: url('images/cervin.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  font-family: 'Varela', sans-serif;
+}
+
+ul{
+  padding: 0;
+}
+
+.list_inline > li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+a {
+  color: rgba(250, 250, 250, 1);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgba(250, 250, 250, 0.6);
+}
+
+img {
+  width: 70px;
+}
+
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: rgba(10, 10, 10, 0.5);
+  border-radius: 5px;
+  width: 700px;
+  text-align: center;
+  margin: auto;
+}
+
+#header_card {
+  display: inline-block;
+}
+#header > img,h1 {
+  display: inline-block;
+}
+
+.large_card {
+  height: 220px;
+}
+
+.fullscreen {
+  height: 100vh;
+}
+
+.card > p {
+  padding: 10px;
+}
+
+.card > h2 {
+  padding-top: 10px;
+}
+
+table{
+  margin: auto;
+  padding: 0px 10px;
+  width: 700px;
+}
+
+.div_table {
+  margin: 10px 0px;
+}
+
+
+.img_circle {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_film {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.img_place{
+  width: 150px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.flag{
+  width: 20px;
+  border-radius: 50%;
+}
+
+.comment {
+  font-size: 14px;
+  text-align: center;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(10, 10, 10, 1);
+  text-align: center;
+}
+
+.side_li {
+  margin: 50px 0px;
+
+}
+
+#page-content {
+  margin-left: 180px;
+}
+
+
+
+
+
+
+
